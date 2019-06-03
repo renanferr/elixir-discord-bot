@@ -9,7 +9,7 @@ use Mix.Config
 # third-party users, it should be done in your "mix.exs" file.
 
 config :nostrum,
-  token: "NTUxNTAyODUwMTYxNzcwNTI2.D1x-ZQ.Xhozg5Hv3VlUbDS1tWHy7wJJRVU", # The token of your bot as a string
+  token: System.get_env("BOT_TOKEN"), # The token of your bot as a string
   num_shards: :auto # The number of shards you want to run your bot under, or :auto.
 
 # It is also possible to import configuration files, relative to this

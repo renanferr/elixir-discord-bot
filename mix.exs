@@ -21,10 +21,10 @@ defmodule ExBot.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:cowboy, "~> 2.4"},
-      {:plug, "~> 1.7"},
-      {:plug_cowboy, "~> 2.0"},
-      {:jason, "~> 1.1"},
+      # {:cowboy, "~> 2.4"},
+      # {:plug, "~> 1.7"},
+      # {:plug_cowboy, "~> 2.0"},
+      # {:jason, "~> 1.1"},
       {:nostrum, git: "https://github.com/Kraigie/nostrum.git"}
 
     ]

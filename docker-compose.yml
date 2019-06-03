@@ -8,3 +8,5 @@ services:
       - 3000:3000
     volumes:
       - .:/app
+    environment:
+      - BOT_TOKEN=NTUxNTAyODUwMTYxNzcwNTI2.D1x-ZQ.Xhozg5Hv3VlUbDS1tWHy7wJJRVU
